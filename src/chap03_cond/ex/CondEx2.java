@@ -1,6 +1,6 @@
 package chap03_cond.ex;
 
-public class CondOp2 {
+public class CondEx2 {
     public static void main(String[] args) {
         int distance = 30;
         if (distance <= 1) {

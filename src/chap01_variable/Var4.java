@@ -1,4 +1,4 @@
-package cha01_variable;
+package chap01_variable;
 
 //변수 선언
 public class Var4 {

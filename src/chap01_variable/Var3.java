@@ -1,4 +1,4 @@
-package cha01_variable;
+package chap01_variable;
 
 // 변수값 변경
 public class Var3 {

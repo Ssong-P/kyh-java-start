@@ -1,4 +1,4 @@
-package cha01_variable.ex;
+package chap01_variable.ex;
 
 public class VarEx2 {
     public static void main(String[] args) {
