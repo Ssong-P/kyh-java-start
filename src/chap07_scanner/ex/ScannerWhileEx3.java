@@ -10,14 +10,22 @@ public class ScannerWhileEx3 {
         int count = 0;
 
         System.out.println("숫자를 입력하세요. 중단하려면 -1을 입력하세요: ");
-        while (true) {
-            int number = input.nextInt();
+//        while (true) {
+//            int number = input.nextInt();
+//
+//            if (number == -1) {
+//                System.out.println("-- 입력 끝 --");
+//                break;
+//            }
+//
+//            sum += number;
+//            count++;
+//        }
 
-            if (number == -1) {
-                System.out.println("-- 입력 끝 --");
-                break;
-            }
+        // 코드 축약
+        int number = 0;
 
+        while ((number = input.nextInt()) != -1) {
             sum += number;
             count++;
         }

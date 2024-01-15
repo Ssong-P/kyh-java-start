@@ -11,16 +11,18 @@ public class ScannerWhileEx4 {
 
             System.out.println("1: 상품입력, 2: 결제, 3: 프로그램 종료");
             int option = input.nextInt();
-            input.nextLine();
 
             if (option == 1) {
+                input.nextLine();
+
                 System.out.print("상품명을 입력하세요: ");
                 String prodName = input.nextLine();
+
                 System.out.print("상품의 가격을 입력하세요: ");
                 int price = input.nextInt();
+
                 System.out.print("구매 수량을 입력하세요: ");
                 int prodQuantity = input.nextInt();
-                input.nextLine();
 
                 int sum = price * prodQuantity;
                 totalPrice += sum;
